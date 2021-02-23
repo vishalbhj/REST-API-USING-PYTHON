@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email], select{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<body>
+
+<div>
+
+
+ <h1>Form</h1>
+
+ <form method="post" action="/">
+	 <label for="username">Username:</label><br>
+	 <input type="text" placeholder="Enter Username" name="username"  required/>
+
+	 <label for="email">Email:</label><br>
+	 <input type="email" placeholder="Enter email" name="email" required/>
+
+	 <label for="age">Age:</label><br>
+	 <input type="text" placeholder="Enter age" name="age" required/>
+
+	 <label for="location">Location:</label><br>
+	 <input type="text" placeholder="location" name="location">
+
+	 <input type="submit"/>
+
+ </form>	
+</div>
+
+</body>
+</html>
